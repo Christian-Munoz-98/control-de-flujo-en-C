@@ -8,6 +8,7 @@ int main()
     printf("OPcion 0 para el menu de bebidas\n");
     printf("OPcion 1 para el menu de comidas\n");
     printf("OPcion 2 para el menu de postres\n");   
+    
     switch (opt1)
     {
         case 0:
@@ -32,7 +33,7 @@ int main()
             /*Dispersar, correr a los intrusos */
         break;        
         default:
-        break;
+            break;
     }
     return 0;
 }
